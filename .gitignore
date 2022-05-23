@@ -1,0 +1,26 @@
+dist
+.eslintcache
+
+*.iml
+.idea/
+.DS_Store
+*.log*
+*.debug*
+
+# yarn berry PnP zero-install
+
+.yarn/*
+!.yarn/cache
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+# other package manager's stuff
+.yarnrc
+.npmrc
+node_modules
+package-lock.json
+pnpm-lock.yaml
+
